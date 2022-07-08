@@ -8,7 +8,7 @@ import vuetify from './plugins/vuetify'
 import Toasted from 'vue-toasted';
 Vue.use(Toasted)
  
-axios.defaults.baseURL = 'http://katyera.pythonanywhere.com/';
+axios.defaults.baseURL = 'https://katyera.pythonanywhere.com/';
 
 Vue.config.productionTip = false
 
